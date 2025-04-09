@@ -1,9 +1,9 @@
 // src/App.jsx
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import SignIn from 'src/components/SignIn';
-import SignUp from 'src/components/SignUp';
-import OtherFeature from './components/OtherFeature';
+import SignIn from './Signin';
+import SignUp from './Signup';
+// import OtherFeature from './components/OtherFeature';
 
 function App() {
   const isLoggedIn = false; // 나중엔 이걸 로그인 상태로 바꿔줄 수 있어!
